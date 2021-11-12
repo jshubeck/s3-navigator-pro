@@ -80,6 +80,9 @@ SOFTWARE.
 ## Credits
 
 Joseph Chereshnovsky (webdevbyjoss)
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 Jouni Kaplas (kaplas)
 
