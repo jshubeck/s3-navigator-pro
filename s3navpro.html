@@ -1,19 +1,26 @@
+<!-- 
+Version: 3.16.1.34
+Dated: 10-NOV-2021
+Author: John Shubeck (jrshubeck@gmail.com)
+Source: Based on a fork of https://github.com/rgrp/s3-bucket-browser
+-->
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>AWS S3 Bucket Browser .:Based on AWS SDK for JavaScript:.</title>
+		<meta charset="utf-8"/>
+		<title>S3 Navigator Pro</title>
 		<link rel="stylesheet" type="text/css" href="css/theme.css">
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="https://sdk.amazonaws.com/js/aws-sdk-2.223.1.min.js"></script>
+		<script src="https://sdk.amazonaws.com/js/aws-sdk-2.950.0.min.js"></script>
 	</head>
 	<body>
 		<script src="js/config.js"></script>	
-		<script src="js/s3bb.js"></script>	
+		<script src="js/s3navpro.js"></script>	
 		<div id="overlay"></div>
 		<div id="maincontent">
 			<div id="header">
 				<div id="subheader">
-					<div id="headertitle">S3 Browser Files</div>
+					<div id="headertitle">S3 Navigator Pro</div>
 					<div id="status"></div>
 				</div>
 				<div id="breadcrumb" class="breadcrumb"></div>
@@ -24,7 +31,7 @@
 				</div>
 			</div>
 			<div id="footer">
-				<p>Powered by <a href="http://github.com/juvs/s3-bucket-browser" target="_blank">AWS S3 Bucket Browser</a></p>
+				<p><img width=45 height=40 src="img/github-logo-small.png">  Powered by <a href="https://github.com/jshubeck/s3-navigator-pro" target="_blank"> S3 Navigator Pro on GitHub</a></p>
 			</div>
 		</div>
 	</body>

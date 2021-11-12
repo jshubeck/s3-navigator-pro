@@ -13,7 +13,7 @@ html, body {
 }
 
 p, li, td, div {
-  font-size: 13px;
+  font-size: 18px;
 }
 
 img {
@@ -36,14 +36,20 @@ ul li img {
 }
 
 span.size {
-	color: #ccc;
-	font-size: 10px;
+	color: #548010;
+	font-size: 18px;
 	padding-left: 5px;
 }
 
 span.lastModifiedDate {
-	color: #caa;
-	font-size: 10px;
+	color: black;
+	font-size: 18px;
+	padding-left: 25px;
+}
+
+span.fileName {
+	color: mediumblue;
+	font-size: 18px;
 	padding-left: 25px;
 }
 
@@ -69,7 +75,8 @@ div.breadcrumb {
   padding: 3px 0px 5px 5px;
   background-color: #fff;
   height: 19px;
-  border-bottom: 1px solid #eee;
+/*  border-bottom: 1px solid #eee; */
+  border-bottom: 2px solid black;
 }
 
 div.breadcrumb, div.breadcrumb a {
@@ -79,16 +86,20 @@ div.breadcrumb, div.breadcrumb a {
 }
 
 div.breadcrumb a {
-	color: #16B;
+	color: mediumblue;
+/*	color: #16B; */
+/*	color: #630306; NEW */
 }
 div.breadcrumb a:hover {
 	background-color: #efefef;
 }
 
+/* Status message sub-zone background color */
 #status {
 	padding: 5px 0px 5px 0px;
 	height: 20px;
-	color: #fff;
+	color: #FFFFFF;
+	background-color: bkack;
 }
 
 #statusimg {
@@ -115,9 +126,10 @@ div.breadcrumb a:hover {
 
 }			
 
+/* Header bar background color */
 #header {
-	background-color: #999;
-	border-bottom: 1px solid #ccc;
+  background-color: #336699;
+	border-bottom: 1px solid black;
 	position:absolute;
 	bottom:0px;
 	width:100%;
@@ -126,13 +138,20 @@ div.breadcrumb a:hover {
 	height:100px;    /* Edit for height of header*/			  
 }
 
+/* Header title zone color */
 #headertitle {
-	color: #000;
+	color: white;
+	background-color: #336699;
 	font-size: 26px;
 }
 
+/* Subheader zone background color */
 #subheader {
 	padding: 5px 15px;
+	background-color: #336699;
+	border-bottom: 1px solid black;
+
+/*	height:50px;  test to expand the subheader height */
 }
 
 #contents {
@@ -152,9 +171,10 @@ div.breadcrumb a:hover {
 	overflow-x: hidden;				
 }
 
+/* Footer zone background color */
 #footer {
-	background-color: #999;
-	border-top: 1px solid #eee;
+  background-color: #333333;
+  border-top: 1px solid silver;
 	position:absolute;
 	bottom:0px;
 	width:100%;
@@ -164,9 +184,9 @@ div.breadcrumb a:hover {
 }
 
 #footer p {
-	font-size: 11px;
+	font-size: 16px;
 	color: #fff;
-	text-align: right;
+	text-align: left;
 	margin-right: 5px;	
 }
 #footer a {
@@ -175,7 +195,7 @@ div.breadcrumb a:hover {
 }
   
 #overlay {
-	background-color: black;
+	background-color: #003366;
 	position: fixed;
 	top: 0; right: 0; bottom: 0; left: 0;
 	opacity: 0.2; /* also -moz-opacity, etc. */
@@ -199,5 +219,9 @@ div.breadcrumb a:hover {
 }
 
 #loginForm input[type=password] {
+	width: 300px;
+}
+
+#loginForm input[type=text] {
 	width: 300px;
 }
