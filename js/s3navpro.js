@@ -1,6 +1,6 @@
 //
 // Version: 3.16.1.34
-// Dated: 10-NOV-2021
+// Dated: 12-NOV-2021
 // Source: https://github.com/jshubeck/s3-navigator-pro
 // Citation: Based on a fork of https://github.com/juvs/s3-bucket-browser
 //
