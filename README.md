@@ -15,13 +15,13 @@ this code is designed for bucket listing (i.e. ListObjects) and GET object, we d
 
 1) Copy all files into your web site. No specific web service is required.
 
-2) Modify the settingS in file "js/config.js" as follows:
+2) Modify the settings in file "js/config.js" as follows:
 
 	- var AWS_AccessKeyId = ''; //Your credentials for specific user and privileges
 	- var AWS_SecretAccessKey = ''; //Your credentials for specific user and privileges
 	- var AWS_Region = 'us-east-1'; //Or null region, or region specific to your object storage service
 	- var AWS_BucketName = ''; //Highly recommended
-	- var AWS_MaxKeys = 500; //How many objects will retrive (include folders and items)
+	- var AWS_MaxKeys = 1000; //How many objects to retrieve (include folders and items)
 	- var AWS_Prefix = ''; //Stating folder, by default start on root of bucket
 	- var AWS_SignedUrl_Expires = 900; //This is the default value for expires getSignedUrl (value in seconds, 15 mins set)
 	//Check this parameter in http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#getSignedUrl-property
@@ -80,9 +80,6 @@ SOFTWARE.
 ## Credits
 
 Joseph Chereshnovsky (webdevbyjoss)
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
 Jouni Kaplas (kaplas)
 
